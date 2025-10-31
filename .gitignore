@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+*.log
+dist/
+build/
+
+# AI-generated files (will be recreated by the AI)
+*.db
+memory.md
+
+# Local development
+.claude/
+.playwright-mcp/

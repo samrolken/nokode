@@ -1,0 +1,27 @@
+{
+  "name": "nokode",
+  "version": "1.0.0",
+  "description": "A web server where the AI makes it up as it goes along",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["no-code", "ai", "experimental", "llm", "chaos-engineering", "future", "web-server", "anthropic", "openai"],
+  "author": "Someone who should know better",
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.16",
+    "@ai-sdk/openai": "^2.0.30",
+    "ai": "^5.0.44",
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.3",
+    "typescript": "^5.9.2"
+  }
+}
